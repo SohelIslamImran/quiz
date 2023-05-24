@@ -15,7 +15,7 @@ const Options = ({ option, ansNo, num }) => {
     >
       <input
         type="radio"
-        className={isSubmitted && correct ? "correct" : "wrong"}
+        className={isSubmitted && correct && "correct"}
         name={ansNo}
         id={`${ansNo}o${num}`}
       />
